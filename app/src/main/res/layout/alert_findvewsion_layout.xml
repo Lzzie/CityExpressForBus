@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/alertdialog_bg">
+    <TextView
+        android:id="@+id/alert_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/font"
+        android:text="发现新版本" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/alert_tv"
+        android:id="@+id/top2"
+        android:background="@mipmap/scrollbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top2"
+        android:id="@+id/alert_tv2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="最新版本：1.1.2" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="新版本大小:13.65M" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="仅需下载:3.6M" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="更新内容：改善用户查询" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:textSize="14sp"
+            android:id="@+id/findNewVesion"
+            android:button="@null"
+            android:textColor="@color/ss_font"
+            android:text="忽略改版本"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@mipmap/alertdialog_bg_line" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/alert_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#00ffffff"
+                android:textColor="@color/font"
+                android:textSize="14sp"
+                android:text="立即更新" />
+            <Button
+                android:id="@+id/alert_btn2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#00ffffff"
+                android:textColor="@color/select_textview_f"
+                android:textSize="14sp"
+                android:text="以后再说" />
+        </LinearLayout>
+    </LinearLayout>
+    
+</RelativeLayout>

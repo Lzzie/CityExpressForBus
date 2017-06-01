@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="top">#C7C7CD</color>
+    <color name="del">#FC3C30</color>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!--灰色-->
+    <color name="register_no">#f0f0f0</color>
+    <!--黑色-->
+    <color name="black">#1e1d1d</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+
+    <color name="press">#fd6011</color>
+    <color name="select_textview_f">#999999</color>
+    <color name="select_textview_t">#6fcbf3</color>
+    <!--测试-->
+    <color name="my_black">#333333</color>
+    <color name="grey20">#cccccc</color>
+
+    <!--我的-->
+    <color name="my_head">#009ee8</color>
+    <color name="login">#09a2e6</color>
+    <color name="font">#01acf4</color>
+    <color name="order_font">#72ccf3</color>
+    <color name="login_button">#6fcbf4</color>
+    <color name="p2_font">#616264</color>
+
+    <!--订单-->
+    <color name="ss_font">#666666</color>
+    <color name="qs_font">#a8afb3</color>
+    <color name="xieyi_font">#87d2f5</color>
+    <color name="way_font">#34363a</color>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    tools:context="com.huina.lzzie.citybus_express.fn.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Li_top"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:onClick="goback"
+            android:clickable="true"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#5e5f61"
+            android:layout_marginRight="20dp"
+            android:focusableInTouchMode="true"
+            android:text="@string/recored"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/Rg_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/qujian_page"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/qujian"
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/qujian_iv"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@mipmap/scrollbar"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/ziji_page"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/ziji"
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/ziji_iv"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@mipmap/scrollbar"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/record_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+    </FrameLayout>
+
+
+
+</LinearLayout>

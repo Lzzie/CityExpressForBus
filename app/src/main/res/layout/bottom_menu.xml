@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_alignParentBottom="true"
+    android:background="#ffffff">
+    <RadioGroup
+        android:id="@+id/main_bottomTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp">
+        <RadioButton
+            android:id="@+id/first_page"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_first_page"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="@drawable/main_tab_textcoler_selector"
+            android:textSize="12sp"/>
+        <RadioButton
+            android:id="@+id/second_page"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_second_page"
+            android:gravity="center"
+            android:checked="false"
+            android:text="我的"
+            android:textColor="@drawable/main_tab_textcoler_selector"
+            android:textSize="12sp"/>
+    </RadioGroup>
+
+</RelativeLayout>

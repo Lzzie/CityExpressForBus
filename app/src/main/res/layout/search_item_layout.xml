@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 android:minHeight="80dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                 android:paddingTop="20dp"
+                android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="快件单号："
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/searchId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="1706222222222222"
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/formAddress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:gravity="center|left"
+                android:maxLines="1"
+                android:text="临沂市河东区中印软件园"
+                android:textColor="@color/font"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/jt2" />
+
+            <TextView
+                android:id="@+id/toAddress"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:gravity="center|left"
+                android:maxLines="1"
+                android:text="临沂市兰山区市政府"
+                android:textColor="@color/font"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="创建时间："
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/createTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="2017.3.15 14:50"
+                android:textColor="@color/ss_font"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Citybus_express</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="customer">123456</string>
+
+    <string name="my_jjjl">寄件记录</string>
+    <string name="my_dz">我的地址</string>
+    <string name="my_jcgx">检查更新</string>
+    <string name="my_yjfk">意见反馈</string>
+    <string name="my_exit">退出登录</string>
+
+    <string name="login_head">账号登录</string>
+    <string name="name">账号</string>
+    <string name="pas">密码</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="login_name">请输入手机号</string>
+    <string name="yzm_name">请输入验证码</string>
+    <string name="get_yzm">获取验证码</string>
+    <string name="login_pas">请输入密码</string>
+    <string name="login_pas2">请再次输入密码</string>
+    <string name="show_register">注册账号</string>
+    <string name="forget_pas">忘记密码</string>
+    <string name="new_pas">"新密码"</string>
+    <string name="new_pas2">"请输入新密码"</string>
+
+    <!--首页-->
+    <string name="qujian">上门取件</string>
+    <string name="ziji">储柜自寄</string>
+    <string name="chajian">我要查件</string>
+    <string name="lainxi">联系客服</string>
+
+    <!--订单-->
+    <string name="smsj">期望上门时间</string>
+    <string name="smsj2">请输入时间(二十四小时制)</string>
+    <string name="wplb">物品类别</string>
+    <string name="wplb2">请输入物品类别(非特殊物件可为空)</string>
+    <string name="wpzl">物品重量</string>
+    <string name="wpzl2">请输入物品重量(非大宗物件可为空)</string>
+    <string name="sfjj">是否加急</string>
+    <string name="xieyi">我已阅读同意</string>
+    <string name="xieyi1">《服务协议》</string>
+    <string name="xieyi2">《禁限物品告知》</string>
+    <string name="queding">确定</string>
+    <string name="mndz">山东省临沂市河东区沃尔沃路与合肥路交汇处中印软件产业园</string>
+
+    <!--myadress-->
+    <string name="jjdz">寄件地址</string>
+    <string name="sjdz">收件地址</string>
+    <string name="tjdz">添加新地址</string>
+    <string name="tjjjdz">添加寄件地址</string>
+    <string name="tjsjdz">添加收件地址</string>
+    <string name="mz">名字</string>
+    <string name="mz2">请输入寄件人的姓名</string>
+    <string name="mz3">请输入收件人的姓名</string>
+    <string name="dh">电话</string>
+    <string name="dh2">请输入手机号</string>
+    <string name="sf">省份</string>
+    <string name="sf2">请输入省份</string>
+    <string name="sq">市区</string>
+    <string name="sq2">请输入市区</string>
+    <string name="xxdz">详细地址</string>
+    <string name="xxdz2">详细地址到门牌号</string>
+    <string name="bc">保存</string>
+    <string name="txl">通讯录</string>
+
+    <!--changeaddress-->
+    <string name="changeAddress">修改寄件地址</string>
+    <string name="changeAddress2">修改收件地址</string>
+
+
+    <!--addorder-->
+    <string name="addorder">订单详情</string>
+    <string name="non_payment">待付款</string>
+    <string name="wait_payment">等待买家付款</string>
+    <string name="off_order">取消订单</string>
+    <string name="go_payment">去付款</string>
+    <string name="sum">金          额:</string>
+    <string name="orderid">订  单  号:</string>
+    <string name="ordertime">下单时间:</string>
+    <string name="jijian_info">寄件人信息：</string>
+    <string name="shoujian_info">收件人信息：</string>
+
+    <!--payorder-->
+    <string name="payOrder">支付方式</string>
+    <string name="wechat">微信支付</string>
+    <string name="wechat2">使用微信支付，安全便捷</string>
+    <string name="alipay">支付宝</string>
+    <string name="alipay2">选择支付宝，网银的用户使用</string>
+    <string name="pay">确认支付</string>
+
+    <!--searchOrder-->
+    <string name="searchOrder">我要查件</string>
+    <string name="orderCode">请输入订单号查询</string>
+    <string name="received">已收快件</string>
+    <string name="send">已发快件</string>
+
+    <!--feedback-->
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_sub">请详细描述您遇到的问题，有助于我们快速定位并解决问题，或留下您宝贵的意见，我们会认真进行评估！</string>
+    <string name="feedback_button">问题提交</string>
+
+    <!--jijianRecored-->
+    <string name="recored">寄件记录</string>
+    <string name="unpaid">未支付</string>
+    <string name="nosend">未寄件</string>
+    <string name="takein">取件中</string>
+    <string name="dispatching">配送中</string>
+    <string name="dispatched">配送完成</string>
+
+    <!--schedule-->
+    <string name="schedule">待办业务</string>
+    <string name="schdule_tv">以下是您未寄件的订单，请尽快投递</string>
+
+    <!--pausuccess-->
+    <string name="paysuccess">支付成功</string>
+
+    <!--resetPassword-->
+    <string name="resetpas">重置密码</string>
+
+    <string name="serviceAgreement1">    一、本协议的合作原则：本协议为甲乙双方的初步合作协议，目的是甲乙双方就甲方的企业管理信息系统的管理需求、业务流程、数据处理流程等进行考察、研讨，制定基于乙方产品的系统解决方案，并就项目的建设实施等有关问题达成协议。</string>
+    <string name="serviceAgreement2">    二、系统涉及的软件产品及相关服务的价格清单乙方许可甲方使用的软件产品清单、提供的服务项目及其费用见附件一。</string>
+    <string name="serviceAgreement3">    三、质量标准乙方保证所许可的软件产品符合中华人民共和国有关法律、法规规定及所附文档的功能说明。</string>
+    <string name="serviceAgreement4">    四、软件版权及使用权本协议中授权许可指的是软件使用权许可，许可使用的软件产品版权属乙方所有，并受《中华人民共和国著作权法》和其他有关法律、法规的保护。甲方按本合同条款规定支付协议书上所列软件产品的全部软件使用许可费，乙方授予甲方上述软件产品的合法使用权。</string>
+    <string name="serviceAgreement5">    五、软件使用许可费及相关费用</string>
+</resources>

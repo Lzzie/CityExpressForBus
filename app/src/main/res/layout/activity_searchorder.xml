@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    tools:context="com.huina.lzzie.citybus_express.fn.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/search_top"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:onClick="goback"
+            android:clickable="true"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#5e5f61"
+            android:layout_marginRight="20dp"
+            android:text="@string/searchOrder"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/search_top2"
+        android:background="@color/white"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"/>
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_weight="0.73"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/search_bj2"
+            android:paddingLeft="15dp"
+            android:hint="输入十五位运单号查询"
+            android:inputType="number"
+            android:maxLength="15"
+            android:enabled="true"
+            android:textSize="12sp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:id="@+id/sButton"
+            android:background="@mipmap/sousuo2" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/receivedLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/received"
+                android:textColor="@drawable/itemcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sendLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textColor="@drawable/itemcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/scr"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5dp"
+            android:id="@+id/scrollbar"
+            android:scaleType="matrix"
+            android:background="@mipmap/scrollbar"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="5dp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

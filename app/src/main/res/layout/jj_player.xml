@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.huina.lzzie.citybus_express.fn.MyaddressActivity"
+    android:background="#fafafa">
+    <!--<com.cjj.MaterialRefreshLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/refresh"-->
+        <!--app:overlay="true"-->
+        <!--app:wave_show="false">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/refresh"
+            android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/address_goods_lv"
+                        android:layout_width="match_parent"
+                        android:divider="@mipmap/listviewbg"
+                        android:scrollingCache="false"
+                        android:fadingEdge="none"
+                        android:cacheColorHint="#00000000"
+                        android:layout_height="match_parent">
+                    </ListView>
+            <!--
+            1、listview在拖动的时候背景图片消失变成黑色背景。等到拖动完毕我们自己的背景图片才显示出来。
+            2 、listview的上边和下边有黑色的阴影。
+            问题1 有如下代码结解决 android:scrollingCache="false"
+            问题2 用如下代码解决：android:fadingEdge="none"
+
+            android:divider="@drawable/list_driver"  其中  @drawable/list_driver 是一个图片资源
+            -->
+        </LinearLayout>
+    <!--</com.cjj.MaterialRefreshLayout>-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="showTjjjdz"
+        android:text="@string/tjjjdz"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@color/login_button"/>
+</LinearLayout>

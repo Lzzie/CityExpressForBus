@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.huina.lzzie.citybus_express.fn.ScheduleActivity"
+    android:background="#fafafa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/layout_boder"
+        android:text="@string/schdule_tv"
+        android:id="@+id/scheduleTv"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/del"
+        android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/unsen_tv"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/font"
+            android:text="您没有一条未寄件的订单哦"/>
+        <ListView
+            android:id="@+id/unsend_lv"
+            android:layout_width="match_parent"
+            android:divider="@mipmap/listviewbg"
+            android:scrollingCache="false"
+            android:fadingEdge="none"
+            android:cacheColorHint="#00000000"
+            android:layout_height="match_parent">
+        </ListView>
+        <!--<ListView-->
+            <!--android:id="@+id/address_goods_lv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:divider="@mipmap/listviewbg"-->
+            <!--android:scrollingCache="false"-->
+            <!--android:fadingEdge="none"-->
+            <!--android:cacheColorHint="#00000000"-->
+            <!--android:layout_height="match_parent">-->
+        <!--</ListView>-->
+
+        <!--
+        1、listview在拖动的时候背景图片消失变成黑色背景。等到拖动完毕我们自己的背景图片才显示出来。
+        2 、listview的上边和下边有黑色的阴影。
+        问题1 有如下代码结解决 android:scrollingCache="false"
+        问题2 用如下代码解决：android:fadingEdge="none"
+
+        android:divider="@drawable/list_driver"  其中  @drawable/list_driver 是一个图片资源
+        -->
+    </LinearLayout>
+
+
+
+</LinearLayout>
